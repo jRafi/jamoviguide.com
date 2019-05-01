@@ -1,0 +1,5 @@
+book_filename: "jamovi guide"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Part "

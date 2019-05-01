@@ -1,0 +1,40 @@
+--- 
+title: "jamovi quickstart guide"
+author: "Jonas Rafi"
+site: bookdown::bookdown_site
+github-repo: jRafi/KIMJ
+url: 'https\://jamoviguide.com'
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+lot: yes
+lof: yes
+fontsize: 12pt
+monofontoptions: "Scale=0.7"
+description: "A quickstart guide for using jamovi."
+---
+
+# Overview {-}
+
+This quickstart guide is meant to be a general introduction to jamovi. There are three sections:
+
+* Loading your data into jamovi
+* Getting an ovewview of your data using descriptive analyses and graphs
+* Running basic statistical analyses
+
+
+Intended readers are: 
+
+1: Someone who already uses another statistical software but want to get started using jamovi  
+2: Students who need to analyse data and who gets statistical supervision from elsewhere
+
+
+Note that this guide only shows *how* to do analyses with jamovi, it is not a tutorial on prerequisites or interpretations of statistical tests. For that purpose there is plenty of other litterature. One example is the book *learning statistics with jamovi* (2018) by Navarro och Foxcroft, which is a comprehensive statistics book using jamovi. Currently (April 2019) it is available for free online.
+
+
+Download jamovi at [www.jamovi.org](https://www.jamovi.org)
+
+Comments and questions are very welcome. Contact me at jonas.rafi [at] psychology.su or at [github](https://github.com/jRafi/jamoviguide.com)  
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">

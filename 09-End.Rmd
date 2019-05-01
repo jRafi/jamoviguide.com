@@ -1,0 +1,4 @@
+# Going further
+
+As mentioned previously, I highly recommend **learning statistics with jamovi** (2018) by Navarro and Foxcroft as further reading. It is available for free download on the web.
+

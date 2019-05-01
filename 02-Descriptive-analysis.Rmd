@@ -1,0 +1,20 @@
+# Deskriptive analyses
+
+This chapter provides an overview of how you perform descriptive analyses and create graphs. First, make sure you have loaded your data into jamovi.
+
+1. Select `Analyses -> Exploration -> Descriptives`.  
+<img src="images/select/select_descriptives.JPG" width="60%"/> 
+
+2. Move the variables you want to descriptive analyses for to __Varibles__.  
+<img src="images/add_var/add_var_descriptives.JPG" width="70%"/> 
+
+3. The result is shown in the right panel. Right click the output to save or copy it.
+<img src="images/output/output_descriptives1.JPG" width="40%"/>
+
+4. To split your descriptive analyses on a categorical variable (e.g. separate by gender), move that variable to __Split by__.
+
+5. See the tab __Statistics__ to see more alternatives
+<img src="images/select/select_descriptives_statistics.JPG" width="60%"/> 
+
+6. Click __Plots__ to create plots based on your selected variables.
+<img src="images/select/select_descriptives_plots.JPG" width="60%"/> 

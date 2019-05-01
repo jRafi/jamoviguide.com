@@ -1,0 +1,46 @@
+# T-test
+
+This chapter shows how to the three T-Tests for Independent Samples (\@ref(independent)), Paired Samples (\@ref(paired)) and One Sample (\@ref(oneSample)).
+
+## Independent Samples T-Test {#independent}
+
+1. To perform an Independent Samples T-Test you need an outcome variable (continous) and a grouping variable with two levels. Therefore, your data should look something like this:
+<img src="images/data_format/data_format_ttest_independent.JPG" width="40%"/>  
+
+2. Select `Analyses -> T-Tests -> Independent Samples T-Test`.  
+<img src="images/select/select_ttest_independent.JPG" width="40%"/> 
+
+3. Move your outcome variable to __Dependent Variables__ and your grouping variable to __Grouping Variable__.  
+<img src="images/add_var/add_var_ttest_independent.JPG" width="70%"/> 
+
+4. The result is shown in the right panel
+
+## Paired Samples T-Test {#paired}
+
+1. To perform a Paired Samples T-Test you need two continous variables. Therefore, your data should look something like this:  
+<img src="images/data_format/data_format_ttest_paired.JPG" width="40%"/>
+
+2. Select `Analyses -> T-Tests -> Paired Samples T-Test`.  
+<img src="images/select/select_ttest_paired.JPG" width="40%"/> 
+
+3. Move your outcome variables to __Dependent variables__.
+<img src="images/add_var/add_var_ttest_paired.JPG" width="70%"/> 
+
+4. The result is shown in the right panel
+
+## One Sample T-Test {#oneSample}
+
+1. To perform a One Sample T-Test you need a continous variable and a mean to test against. Therefore, your data should look something like this:
+<img src="images/data_format/data_format_ttest_one_sample.JPG" alt="Data till One Sample T-Test." width="40%"/>  
+
+2. Select `Analyses -> T-Tests -> One Sample T-Test`.  
+<img src="images/select/select_ttest_one_sample.JPG" width="40%"/> 
+
+3. Move your dependent variable to __Dependent Variables__.  
+<img src="images/add_var/add_var_ttest_one_sample.JPG" width="70%"/> 
+
+4. Locate the section "Hypothesis" further down, this is where you enter the mean you want to test against.
+
+5. The result is shown in the right panel
+
+

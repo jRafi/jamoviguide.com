@@ -1,0 +1,68 @@
+# ANOVA  
+
+This chapter shows how to perform an ANOVA (\@ref(ANOVA)) and its extensions Factorial ANOVA (\@ref(factorialANOVA)), Repeated Measures ANOVA (\@ref(rmANOVA)), and Mixed ANOVA (\@ref(mixedANOVA)).
+
+## ANOVA {#ANOVA}  
+
+1. To perform a "simple" ANOVA you need a grouping variable and an outcome variable (continous). Therefore, your data should look something like this:  
+<img src="images/data_format/data_format_anova.JPG" width="25%"/>  
+
+2. Select `Analyses -> ANOVA -> ANOVA`.  
+<img src="images/select/select_anova.JPG" width="40%"/> 
+
+3. Move your outcome variable to __Dependent Variable__ and your grouping variable to __Fixed Factors__.  
+<img src="images/add_var/add_var_anova.JPG" width="70%"/> 
+
+4. The results is shown in the right pane:  
+<img src="images/output/output_anova.JPG" width="70%"/> 
+
+## Factorial ANOVA {#factorialANOVA}  
+
+1. To perform a factorial ANOVA you need two grouping variables and an outcome variable (continous). Therefore, your data should look something like this:  
+<img src="images/data_format/data_format_anova_factorial.JPG" width="25%"/>  
+
+2. Select `Analyses -> ANOVA -> ANOVA`.  
+<img src="images/select/select_anova.JPG" width="40%"/> 
+
+3. Move your outcome variable to __Dependent Variable__ and your grouping variables to __Fixed Factors__.   
+<img src="images/add_var/add_var_anova_factorial.JPG" width="70%"/> 
+
+4. The result is shown in the right pane:  
+<img src="images/output/output_anova_factorial.JPG" width="70%"/> 
+
+## Repeated Measures ANOVA {#rmANOVA}  
+
+1. To perform a Repeated Measures ANOVA you need an outcome variable (continous) where every measurement has its own column. Therefore, your data should look something like this:  
+<img src="images/data_format/data_format_anova_repeated.JPG" width="40%"/>  
+
+2. Select `Analyses -> ANOVA -> Repeated Measures ANOVA`.  
+<img src="images/select/select_anova_repeated.JPG" width="40%"/> 
+
+3. In the box __Repeated Measures Factors__: write the name of your outcome variable (e.g. BBQ) and name the levels for each measurement occasion (e.g. Pre, Post and 12 month follow-up). The below images illustrates this.  
+<img src="images/add_var/add_var_anova_repeated_naming_1.JPG" width="30%"/> `->` <img src="images/add_var/add_var_anova_repeated_naming_2.JPG" width="30%"/> 
+
+4. Move your outcome variables to their respective cells in __Repeated Measures Cells__.  
+<img src="images/add_var/add_var_anova_repeated.JPG" width="70%"/> 
+
+5. The results are shown in the right pane:  
+<img src="images/output/output_anova_repeated.JPG" width="70%"/> 
+
+## Mixed ANOVA {#mixedANOVA}  
+
+1. To perform a mixed ANOVA, you need a grouping variable and an outcome variable (continous) where each measurement occasion has its own column. Therefore, your data should look something like this:  
+<img src="images/data_format/data_format_anova_mixed.JPG" width="50%"/> 
+
+2. Select `Analyses -> ANOVA -> Repeated Measures ANOVA`.  
+<img src="images/select/select_anova_repeated.JPG" width="40%"/> 
+
+3.  In the box __Repeated Measures Factors__: write the name of your outcome variable (e.g. BBQ) and name the levels for each measurement occasion (e.g. Pre, Post and 12 month follow-up). The below images illustrates this.  
+<img src="images/add_var/add_var_anova_repeated_naming_1.JPG" width="30%"/> `->` <img src="images/add_var/add_var_anova_repeated_naming_2.JPG" width="30%"/> 
+
+4. Move your outcome variables to their respective cells in __Repeated Measures Cells__.  
+<img src="images/add_var/add_var_anova_repeated.JPG" width="70%"/> 
+
+5. Move your grouping variables to __Between Subject Factors__.  
+<img src="images/add_var/add_var_anova_mixed.JPG" width="35%"/> 
+
+6. The result is shown in the right panel:  
+<img src="images/output/output_anova_mixed.JPG" width="70%"/> 
