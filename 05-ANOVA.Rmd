@@ -1,6 +1,6 @@
 # ANOVA  
 
-This chapter shows how to conduct an ANOVA (\@ref(ANOVA)) and its extensions Factorial ANOVA (\@ref(factorialANOVA)), Repeated Measures ANOVA (\@ref(rmANOVA)), and Mixed ANOVA (\@ref(mixedANOVA)).
+This chapter shows how to conduct an ANOVA (\@ref(ANOVA)) and its extensions factorial ANOVA (\@ref(factorialANOVA)), repeated measures ANOVA (\@ref(rmANOVA)), and mixed ANOVA (\@ref(mixedANOVA)).
 
 ## ANOVA {#ANOVA}  
 
@@ -30,9 +30,9 @@ This chapter shows how to conduct an ANOVA (\@ref(ANOVA)) and its extensions Fac
 4. The result is shown in the right pane:  
 <img src="images/output/output_anova_factorial.JPG" width="70%"/> 
 
-## Repeated Measures ANOVA {#rmANOVA}  
+## Repeated measures ANOVA {#rmANOVA}  
 
-1. To perform a Repeated Measures ANOVA you need an outcome variable (continuous) where every measurement has its own column. Therefore, your data should look something like this:  
+1. To perform a repeated measures ANOVA you need an outcome variable (continuous) where every measurement has its own column. Therefore, your data should look something like this:  
 <img src="images/data_format/data_format_anova_repeated.JPG" width="40%"/>  
 
 2. Select `Analyses -> ANOVA -> Repeated Measures ANOVA`.  

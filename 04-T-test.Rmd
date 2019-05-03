@@ -1,10 +1,10 @@
-# T-test
+# t-test
 
-This chapter shows how to conduct T-Tests using Independent Samples (\@ref(independent)), Paired Samples (\@ref(paired)) and One Sample (\@ref(oneSample)).
+This chapter shows how to conduct t-tests using independent samples (\@ref(independent)), paired samples (\@ref(paired)) and one-sample (\@ref(oneSample)).
 
-## Independent Samples T-Test {#independent}
+## Independent samples t-test {#independent}
 
-1. To perform an Independent Samples T-Test you need an outcome variable (continuous) and a grouping variable with two levels. Therefore, your data should look something like this:  
+1. To perform an independent samples t-test you need an outcome variable (continuous) and a grouping variable with two levels. Therefore, your data should look something like this:  
 <img src="images/data_format/data_format_ttest_independent.JPG" width="40%"/>  
 
 2. Select `Analyses -> T-Tests -> Independent Samples T-Test`.  
@@ -15,9 +15,9 @@ This chapter shows how to conduct T-Tests using Independent Samples (\@ref(indep
 
 4. The result is shown in the right panel
 
-## Paired Samples T-Test {#paired}
+## Paired samples t-test {#paired}
 
-1. To perform a Paired Samples T-Test you need two continuous variables. Therefore, your data should look something like this:  
+1. To perform a paired samples t-test you need two continuous variables. Therefore, your data should look something like this:  
 <img src="images/data_format/data_format_ttest_paired.JPG" width="40%"/>
 
 2. Select `Analyses -> T-Tests -> Paired Samples T-Test`.  
@@ -28,9 +28,9 @@ This chapter shows how to conduct T-Tests using Independent Samples (\@ref(indep
 
 4. The result is shown in the right panel
 
-## One Sample T-Test {#oneSample}
+## One-sample t-test {#oneSample}
 
-1. To perform a One Sample T-Test you need a continuous variable and a mean to test against. Therefore, your data should look something like this:  
+1. To perform a one-sample t-test you need a continuous variable and a mean to test against. Therefore, your data should look something like this:  
 <img src="images/data_format/data_format_ttest_one_sample.JPG" alt="Data till One Sample T-Test." width="40%"/>  
 
 2. Select `Analyses -> T-Tests -> One Sample T-Test`.  

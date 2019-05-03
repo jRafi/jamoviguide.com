@@ -2,7 +2,7 @@
 
 This chapter shows how to perform linear (\@ref(linear)) and logistic (\@ref(logistic)) regressions
 
-## Linear Regression {#linear}  
+## Linear regression {#linear}  
 
 1. To perform a linear regression you need two continuous variables: one outcome variable and one predictor variable. Therefore, your data should look something like this:  
 <img src="images/data_format/data_format_regression.JPG" width="25%"/>  
@@ -16,7 +16,7 @@ This chapter shows how to perform linear (\@ref(linear)) and logistic (\@ref(log
 4. The result is shown in the right panel:  
 <img src="images/output/output_regression.JPG" width="50%"/> 
 
-## Logistic Regression {#logistic}  
+## Logistic regression {#logistic}  
 
 1. To perform a logistic regression you need a continuous predictor variable and a categorical outcome variable. Therefore, your data should look something like this:  
 <img src="images/data_format/data_format_regression_logistic.JPG" width="25%"/>  
