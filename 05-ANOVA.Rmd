@@ -1,8 +1,8 @@
-# ANOVA  
+# ANOVA  {#ANOVA}
 
-This chapter shows how to conduct an ANOVA (\@ref(ANOVA)) and its extensions factorial ANOVA (\@ref(factorialANOVA)), repeated measures ANOVA (\@ref(rmANOVA)), and mixed ANOVA (\@ref(mixedANOVA)).
+This chapter shows how to conduct an ANOVA (\@ref(onewayANOVA)) and its extensions factorial ANOVA (\@ref(factorialANOVA)), repeated measures ANOVA (\@ref(rmANOVA)), and mixed ANOVA (\@ref(mixedANOVA)).
 
-## ANOVA {#ANOVA}  
+## ANOVA {#onewayANOVA}  
 
 1. To perform a "simple" ANOVA you need a grouping variable and an outcome variable (continuous). Therefore, your data should look something like this:  
 <img src="images/data_format/data_format_anova.JPG" width="40%"/>  

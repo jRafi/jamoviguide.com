@@ -1,4 +1,4 @@
-# Descriptive analyses
+# Descriptive analyses {#descriptives}
 
 This chapter provides an overview of how you perform descriptive analyses and create graphs. If you have not yet loaded and prepared your data, have a look at the previous chapter (\@ref(loadData)) first.
 

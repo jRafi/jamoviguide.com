@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Part 5 Regression | jamovi quickstart guide</title>
+  <title>Part 2 Descriptive analyses | jamovi quickstart guide</title>
   <meta name="description" content="A quickstart guide to get started using jamovi.">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="Part 5 Regression | jamovi quickstart guide" />
+  <meta property="og:title" content="Part 2 Descriptive analyses | jamovi quickstart guide" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://jamoviguide.com" />
   
@@ -17,7 +17,7 @@
   <meta name="github-repo" content="jRafi/KIMJ" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Part 5 Regression | jamovi quickstart guide" />
+  <meta name="twitter:title" content="Part 2 Descriptive analyses | jamovi quickstart guide" />
   
   <meta name="twitter:description" content="A quickstart guide to get started using jamovi." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="ANOVA.html">
-<link rel="next" href="going-further.html">
+<link rel="prev" href="loadData.html">
+<link rel="next" href="t-test.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -118,43 +118,29 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="regression" class="section level1">
-<h1><span class="header-section-number">Part 5</span> Regression</h1>
-<p>This chapter shows how to perform linear (<a href="regression.html#linear">5.1</a>) and logistic (<a href="regression.html#logistic">5.2</a>) regressions</p>
-<div id="linear" class="section level2">
-<h2><span class="header-section-number">5.1</span> Linear regression</h2>
+<div id="descriptives" class="section level1">
+<h1><span class="header-section-number">Part 2</span> Descriptive analyses</h1>
+<p>This chapter provides an overview of how you perform descriptive analyses and create graphs. If you have not yet loaded and prepared your data, have a look at the previous chapter (<a href="loadData.html#loadData">1</a>) first.</p>
+<p>When you are ready to perform your descriptive analysis, follow the steps below:</p>
 <ol style="list-style-type: decimal">
-<li><p>To perform a linear regression you need two continuous variables: one outcome variable and one predictor variable. Therefore, your data should look something like this:<br />
-<img src="images/data_format/data_format_regression.JPG" width="25%"/></p></li>
-<li><p>Select <code>Analyses -&gt; Regression -&gt; Linear Regression</code>.<br />
-<img src="images/select/select_regression_linear.JPG" width="40%"/></p></li>
-<li><p>Move your outcome variable to <strong>Dependent Variable</strong> and your predictor to <strong>Covariates</strong>. <img src="images/add_var/add_var_regression.JPG" width="70%"/></p></li>
-<li><p>The result is shown in the right panel:<br />
-<img src="images/output/output_regression.JPG" width="50%"/></p></li>
-</ol>
-</div>
-<div id="logistic" class="section level2">
-<h2><span class="header-section-number">5.2</span> Logistic regression</h2>
-<ol style="list-style-type: decimal">
-<li><p>To perform a logistic regression you need a continuous predictor variable and a categorical outcome variable. Therefore, your data should look something like this:<br />
-<img src="images/data_format/data_format_regression_logistic.JPG" width="25%"/></p></li>
-<li><p>If the outcome variable has two levels (as in the above image): select <code>Analyses -&gt; Regression -&gt; 2 Outcomes</code>. If the outcome variable has three or more levels, select <code>Analyses -&gt; Regression -&gt; N Outcomes</code>.<br />
-<img src="images/select/select_regression_logistic.JPG" width="40%"/></p></li>
-<li><p>Move your outcome variable to <strong>Dependent Variable</strong> and your predictor to <strong>Covariates</strong>.<br />
-<img src="images/add_var/add_var_regression_logistic.JPG" width="70%"/></p></li>
-<li><p>The result is shown in the right panel:<br />
-<img src="images/output/output_regression_logistic.JPG" width="50%"/></p></li>
+<li><p>Select <code>Analyses -&gt; Exploration -&gt; Descriptives</code>.<br />
+<img src="images/select/select_descriptives.JPG" width="60%"/></p></li>
+<li><p>Move the variables you want to descriptive analyses for to <strong>Varibles</strong>.<br />
+<img src="images/add_var/add_var_descriptives.JPG" width="70%"/></p></li>
+<li><p>The result is shown in the right panel. Right click the output to save or copy it. <img src="images/output/output_descriptives1.JPG" width="40%"/></p></li>
+<li><p>To split your descriptive analyses on a categorical variable (e.g. separate by gender), move that variable to <strong>Split by</strong>.</p></li>
+<li><p>Click the tab <strong>Statistics</strong> to see more alternatives <img src="images/select/select_descriptives_statistics.JPG" width="60%"/></p></li>
+<li><p>To create a plot, click <strong>Plots</strong> and tick a box to create a plot corresponding to your choices in step 2. <img src="images/select/select_descriptives_plots.JPG" width="60%"/></p></li>
 </ol>
 
-</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="ANOVA.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="going-further.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="loadData.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="t-test.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

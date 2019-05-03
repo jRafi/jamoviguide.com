@@ -1,4 +1,4 @@
-# t-test
+# t-test {#t-test}
 
 This chapter shows how to conduct t-tests using independent samples (\@ref(independent)), paired samples (\@ref(paired)) and one-sample (\@ref(oneSample)).
 

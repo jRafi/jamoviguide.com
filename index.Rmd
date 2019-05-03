@@ -19,14 +19,14 @@ description: "A quickstart guide to get started using jamovi."
 
 This guide is meant to be a brief step-by-step introduction to get started with jamovi. There are three sections:
 
-* Loading and preparing your data
-* Getting an overview of your data using descriptive analyses and graphs
-* Running basic statistical analyses
+* Loading and preparing your data (chapter \@ref(loadData))
+* Getting an overview of your data using descriptive analyses and graphs (chapter \@ref(descriptives))
+* Running basic statistical analyses (chapter \@ref(t-test), \@ref(ANOVA), \@ref(regression))
 
 
 Intended readers are: 
 
-1: Students who need to analyse data and who gets statistical supervision/training from elsewhere
+1: Students who need to analyse data and who gets statistical supervision/training from elsewhere  
 2: Anyone who already uses another statistical software but want to get started using jamovi  
 
 
