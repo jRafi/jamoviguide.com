@@ -6,20 +6,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Part 3 T-test | jamovi quickstart guide</title>
-  <meta name="description" content="A quickstart guide for using jamovi.">
+  <meta name="description" content="A quickstart guide to get started using jamovi.">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
   <meta property="og:title" content="Part 3 T-test | jamovi quickstart guide" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://jamoviguide.com" />
   
-  <meta property="og:description" content="A quickstart guide for using jamovi." />
+  <meta property="og:description" content="A quickstart guide to get started using jamovi." />
   <meta name="github-repo" content="jRafi/KIMJ" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Part 3 T-test | jamovi quickstart guide" />
   
-  <meta name="twitter:description" content="A quickstart guide for using jamovi." />
+  <meta name="twitter:description" content="A quickstart guide to get started using jamovi." />
   
 
 <meta name="author" content="Jonas Rafi">
@@ -31,7 +31,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="deskriptive-analyses.html">
+<link rel="prev" href="descriptive-analyses.html">
 <link rel="next" href="anova.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -76,12 +76,12 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a></li>
-<li class="chapter" data-level="1" data-path="loading-data-into-jamovi.html"><a href="loading-data-into-jamovi.html"><i class="fa fa-check"></i><b>1</b> Loading data into jamovi</a><ul>
-<li class="chapter" data-level="1.1" data-path="loading-data-into-jamovi.html"><a href="loading-data-into-jamovi.html#openFile"><i class="fa fa-check"></i><b>1.1</b> Opening a file</a></li>
-<li class="chapter" data-level="1.2" data-path="loading-data-into-jamovi.html"><a href="loading-data-into-jamovi.html#csvData"><i class="fa fa-check"></i><b>1.2</b> Comma delimited data</a></li>
-<li class="chapter" data-level="1.3" data-path="loading-data-into-jamovi.html"><a href="loading-data-into-jamovi.html#wideData"><i class="fa fa-check"></i><b>1.3</b> Breda data</a></li>
+<li class="chapter" data-level="1" data-path="loadData.html"><a href="loadData.html"><i class="fa fa-check"></i><b>1</b> Loading and preparing data</a><ul>
+<li class="chapter" data-level="1.1" data-path="loadData.html"><a href="loadData.html#csvData"><i class="fa fa-check"></i><b>1.1</b> Comma delimited data</a></li>
+<li class="chapter" data-level="1.2" data-path="loadData.html"><a href="loadData.html#wideData"><i class="fa fa-check"></i><b>1.2</b> Wide data</a></li>
+<li class="chapter" data-level="1.3" data-path="loadData.html"><a href="loadData.html#openFile"><i class="fa fa-check"></i><b>1.3</b> Opening a file</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="deskriptive-analyses.html"><a href="deskriptive-analyses.html"><i class="fa fa-check"></i><b>2</b> Deskriptive analyses</a></li>
+<li class="chapter" data-level="2" data-path="descriptive-analyses.html"><a href="descriptive-analyses.html"><i class="fa fa-check"></i><b>2</b> Descriptive analyses</a></li>
 <li class="chapter" data-level="3" data-path="t-test.html"><a href="t-test.html"><i class="fa fa-check"></i><b>3</b> T-test</a><ul>
 <li class="chapter" data-level="3.1" data-path="t-test.html"><a href="t-test.html#independent"><i class="fa fa-check"></i><b>3.1</b> Independent Samples T-Test</a></li>
 <li class="chapter" data-level="3.2" data-path="t-test.html"><a href="t-test.html#paired"><i class="fa fa-check"></i><b>3.2</b> Paired Samples T-Test</a></li>
@@ -94,7 +94,7 @@
 <li class="chapter" data-level="4.4" data-path="anova.html"><a href="anova.html#mixedANOVA"><i class="fa fa-check"></i><b>4.4</b> Mixed ANOVA</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="regression.html"><a href="regression.html"><i class="fa fa-check"></i><b>5</b> Regression</a><ul>
-<li class="chapter" data-level="5.1" data-path="regression.html"><a href="regression.html#linear"><i class="fa fa-check"></i><b>5.1</b> Regression</a></li>
+<li class="chapter" data-level="5.1" data-path="regression.html"><a href="regression.html#linear"><i class="fa fa-check"></i><b>5.1</b> Linear Regression</a></li>
 <li class="chapter" data-level="5.2" data-path="regression.html"><a href="regression.html#logistic"><i class="fa fa-check"></i><b>5.2</b> Logistic Regression</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="going-further.html"><a href="going-further.html"><i class="fa fa-check"></i><b>6</b> Going further</a></li>
@@ -120,11 +120,12 @@
             <section class="normal" id="section-">
 <div id="t-test" class="section level1">
 <h1><span class="header-section-number">Part 3</span> T-test</h1>
-<p>This chapter shows how to the three T-Tests for Independent Samples (<a href="t-test.html#independent">3.1</a>), Paired Samples (<a href="t-test.html#paired">3.2</a>) and One Sample (<a href="t-test.html#oneSample">3.3</a>).</p>
+<p>This chapter shows how to conduct T-Tests using Independent Samples (<a href="t-test.html#independent">3.1</a>), Paired Samples (<a href="t-test.html#paired">3.2</a>) and One Sample (<a href="t-test.html#oneSample">3.3</a>).</p>
 <div id="independent" class="section level2">
 <h2><span class="header-section-number">3.1</span> Independent Samples T-Test</h2>
 <ol style="list-style-type: decimal">
-<li><p>To perform an Independent Samples T-Test you need an outcome variable (continous) and a grouping variable with two levels. Therefore, your data should look something like this: <img src="images/data_format/data_format_ttest_independent.JPG" width="40%"/></p></li>
+<li><p>To perform an Independent Samples T-Test you need an outcome variable (continuous) and a grouping variable with two levels. Therefore, your data should look something like this:<br />
+<img src="images/data_format/data_format_ttest_independent.JPG" width="40%"/></p></li>
 <li><p>Select <code>Analyses -&gt; T-Tests -&gt; Independent Samples T-Test</code>.<br />
 <img src="images/select/select_ttest_independent.JPG" width="40%"/></p></li>
 <li><p>Move your outcome variable to <strong>Dependent Variables</strong> and your grouping variable to <strong>Grouping Variable</strong>.<br />
@@ -135,18 +136,20 @@
 <div id="paired" class="section level2">
 <h2><span class="header-section-number">3.2</span> Paired Samples T-Test</h2>
 <ol style="list-style-type: decimal">
-<li><p>To perform a Paired Samples T-Test you need two continous variables. Therefore, your data should look something like this:<br />
+<li><p>To perform a Paired Samples T-Test you need two continuous variables. Therefore, your data should look something like this:<br />
 <img src="images/data_format/data_format_ttest_paired.JPG" width="40%"/></p></li>
 <li><p>Select <code>Analyses -&gt; T-Tests -&gt; Paired Samples T-Test</code>.<br />
 <img src="images/select/select_ttest_paired.JPG" width="40%"/></p></li>
-<li><p>Move your outcome variables to <strong>Dependent variables</strong>. <img src="images/add_var/add_var_ttest_paired.JPG" width="70%"/></p></li>
+<li><p>Move your outcome variables to <strong>Dependent variables</strong>.<br />
+<img src="images/add_var/add_var_ttest_paired.JPG" width="70%"/></p></li>
 <li><p>The result is shown in the right panel</p></li>
 </ol>
 </div>
 <div id="oneSample" class="section level2">
 <h2><span class="header-section-number">3.3</span> One Sample T-Test</h2>
 <ol style="list-style-type: decimal">
-<li><p>To perform a One Sample T-Test you need a continous variable and a mean to test against. Therefore, your data should look something like this: <img src="images/data_format/data_format_ttest_one_sample.JPG" alt="Data till One Sample T-Test." width="40%"/></p></li>
+<li><p>To perform a One Sample T-Test you need a continuous variable and a mean to test against. Therefore, your data should look something like this:<br />
+<img src="images/data_format/data_format_ttest_one_sample.JPG" alt="Data till One Sample T-Test." width="40%"/></p></li>
 <li><p>Select <code>Analyses -&gt; T-Tests -&gt; One Sample T-Test</code>.<br />
 <img src="images/select/select_ttest_one_sample.JPG" width="40%"/></p></li>
 <li><p>Move your dependent variable to <strong>Dependent Variables</strong>.<br />
@@ -162,7 +165,7 @@
           </div>
         </div>
       </div>
-<a href="deskriptive-analyses.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="descriptive-analyses.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="anova.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>

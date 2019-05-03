@@ -1,7 +1,25 @@
-# Loading data into jamovi
+# Loading and preparing data {#loadData}
 
-You can load data into jamovi using either data files used in other statistical software (SPSS, Stata, SAS, JASP) or from textfiles (.txt or .csv files) with __comma delimited data__ (\@ref(csvData)). To be able to perform common analyses like t-test, ANOVA or regression, your data needs to be in the __wide format__ (\@ref(wideData)). When you have your wide data ready, __opening a file__ (\@ref(openFile)) file in jamovi is easy.
 
+You can load data into jamovi using either data files used in other statistical software (SPSS, Stata, SAS, JASP) or from textfiles (.txt or .csv files) with __comma delimited data__. If your data file is not associated with another statistical software, then you may want to look at the csv-section below first (\@ref(csvData)). Regardless of the type of data file, your data should be in the __wide format__ (\@ref(wideData)) to be able to perform common analyses like t-test, ANOVA or regression. When you have your data file with wide data ready, all you need to do is __open the file__ (\@ref(openFile)) in jamovi.
+
+
+## Comma delimited data {#csvData}
+
+A comma delimited file has the filename extension .csv and contains unformated text, where cells are separated by a semi-colon (se picture below) or another special character. If your have your data in a spreadsheet program (e.g. Excel), you can create a csv-file of your data by selecting `File -> Save as...` and choose `Comma delimited` in the drop-down menu near the `Save as`-button.
+
+<img src="images/csv_data.PNG" alt="Comma delimited data" width="40%"/>  
+Figure 1: _A .csv-file opened in a texteditor._  
+
+## Wide data {#wideData}
+
+Your data needs to be in the _wide format_ in order to perform analyses like t-test, ANOVA and regression. Wide data (se figure 2A below) means that every participant has one row only. This is contrast to the _long format_ (se figure 2B below) where each participant may have multiple rows.
+
+<img src="images/wide_data.JPG" alt="Wide data" width="60%"/>  
+Figure 2A: _Data in wide format._  
+
+<img src="images/long_data.JPG" alt="Long data" width="45%"/>  
+Figure 2B: _Data i long format._  
 
 ## Opening a file {#openFile}
 
@@ -10,19 +28,3 @@ You can load data into jamovi using either data files used in other statistical 
 2. Make sure that `This PC/Mac` is selected and click `Browse`
 
 3. Locate your data file and click open.
-
-## Comma delimited data {#csvData}
-
-A comma delimited file has the filename extension .csv and contains unformated text, where cells are separated by a semi-colon (se picture below) or another special character. If your have your data in a spreadsheet program (e.g. Excel), you can create a csv-file of your data by selecting `File -> Save as...` and choose `Comma delimited` in the drop-down menu near the `Save as`-button.
-
-<img src="images/csv_data.PNG" alt="Comma delimited data" width="60%"/>  
-
-## Breda data {#wideData}
-
-Commonly, your data needs to be in the _wide format_. Wide data (se figure A below) means that every participant has one row only. This is contrast to the _long format_ (se figure B below) where each participant may have multiple rows.
-
-<img src="images/wide_data.JPG" alt="Wide data" width="60%"/>  
-Figur A: _Data in wide format._  
-
-<img src="images/long_data.JPG" alt="Long data" width="45%"/>  
-Figur B: _Data i long format._  
