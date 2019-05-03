@@ -21,7 +21,7 @@ This guide is meant to be a brief step-by-step introduction to get started with 
 
 * Loading and preparing your data (chapter \@ref(loadData))
 * Getting an overview of your data using descriptive analyses and graphs (chapter \@ref(descriptives))
-* Running basic statistical analyses (chapter \@ref(t-test), \@ref(ANOVA), \@ref(regression))
+* Running basic statistical analyses (chapter \@ref(t-test), \@ref(anova), \@ref(regression))
 
 
 Intended readers are: 
