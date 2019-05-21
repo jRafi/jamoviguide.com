@@ -1,6 +1,6 @@
 bookdown::gitbook:
   includes:
-    in_header: [ga.html]
+    in_header: [ga.html, consent.html]
   css: style.css
   config:
     toc:

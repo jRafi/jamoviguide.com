@@ -56,6 +56,27 @@
 
   gtag('config', 'UA-127170706-4');
 </script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#edeff5",
+      "text": "#838391"
+    },
+    "button": {
+      "background": "#4b81e8"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "This website uses cookies.\n",
+    "dismiss": "Ok"
+  }
+})});
+</script>
 
 
 
@@ -121,42 +142,46 @@
             <section class="normal" id="section-">
 <div id="loadData" class="section level1">
 <h1><span class="header-section-number">Part 1</span> Loading and preparing data</h1>
-<p>When <strong>opening a file in jamovi</strong> (<a href="loadData.html#openFile">1.1</a>), you need to consider three things: the file format, the data format, and the data type. If your data file was created by another statistical software (SPSS, Stata, SAS or JASP), you can load that file into jamovi. Otherwise, your data should be stored in a <strong>comma delimited data file</strong> (<a href="loadData.html#csvData">1.2</a>). Next, your data format should be in the <strong>wide data format</strong> (<a href="loadData.html#wideData">1.3</a>) to be able to perform common analyses like t-test, ANOVA or regression. Once loaded into jamovi, you need to select the appropriate <strong>data type</strong> (<a href="loadData.html#dataType">1.4</a>) for each variable.</p>
+<p>When <strong>opening a file in jamovi</strong> (<a href="loadData.html#openFile">1.1</a>), you need to consider three things: the file format, the data format, and the data type. If your data file was created by another statistical software (SPSS, Stata, SAS or JASP), you can load that file into jamovi. Otherwise, your data should be stored in a <strong>comma delimited file</strong> (<a href="loadData.html#csvData">1.2</a>). Next, your data format should be in the <strong>wide data format</strong> (<a href="loadData.html#wideData">1.3</a>) to be able to perform common analyses like t-test, ANOVA or regression. Once loaded into jamovi, you need to select the appropriate <strong>data type</strong> (<a href="loadData.html#dataType">1.4</a>) for each variable.</p>
 <div id="openFile" class="section level2">
 <h2><span class="header-section-number">1.1</span> Opening a file</h2>
-<p>How to open a file in jamovi:</p>
+<div id="how-to-open-a-file-in-jamovi" class="section level5 unnumbered">
+<h5>How to open a file in jamovi:</h5>
 <ol style="list-style-type: decimal">
 <li><p>Click the menu icon <img src="images/jamovi_menu_icon.JPG" alt="Menu icon" width="3%"/> in the top left corner.</p></li>
 <li><p>Make sure that <code>This PC/Mac</code> is selected and click <code>Browse</code>.</p></li>
 <li><p>Locate your data file and click open.</p></li>
 </ol>
 </div>
+</div>
 <div id="csvData" class="section level2">
 <h2><span class="header-section-number">1.2</span> Comma delimited data</h2>
-<p>A comma delimited file has the filename extension .csv and contains unformated text, where cells are separated by a semi-colon (se figure 1 below) or another special character. If you have your data in a spreadsheet program (e.g. Excel), you can create a csv-file of your data by selecting <code>File -&gt; Save as...</code> and choose <code>Comma delimited</code> in the drop-down menu near the <code>Save as</code>-button.</p>
+<p>A comma delimited file has the filename extension “.csv” and contains unformated text, where cells are separated by a semi-colon (se figure 1 below) or another special character. If you have your data in a spreadsheet program (e.g. Excel), you can create a csv-file of your data by selecting <code>File -&gt; Save as...</code> and choose <code>Comma delimited</code> in the drop-down menu near the <code>Save as</code>-button.</p>
 <p><img src="images/csv_data.png" alt="Comma delimited data" width="40%"/><br />
 Figure 1: <em>A .csv-file opened in a texteditor.</em></p>
 </div>
 <div id="wideData" class="section level2">
 <h2><span class="header-section-number">1.3</span> Wide data</h2>
 <p>Your data needs to be in <em>wide format</em> in order to perform analyses like t-test, ANOVA and regression. Wide data (se figure 2A below) means that there is only one row per participant. This is contrast to <em>long format</em> (se figure 2B below) where each participant may have multiple rows.</p>
-<p><img src="images/wide_data.JPG" alt="Wide data" width="60%"/><br />
+<p><img src="images/wide_data.JPG" alt="Wide data" width="50%"/><br />
 Figure 2A: <em>Data in wide format.</em></p>
-<p><img src="images/long_data.JPG" alt="Long data" width="45%"/><br />
+<p><img src="images/long_data.JPG" alt="Long data" width="35%"/><br />
 Figure 2B: <em>Data i long format.</em></p>
 </div>
 <div id="dataType" class="section level2">
 <h2><span class="header-section-number">1.4</span> Data type</h2>
-<p>How to set the data type in jamovi:</p>
+<div id="how-to-set-the-data-type-in-jamovi" class="section level5 unnumbered">
+<h5>How to set the data type in jamovi:</h5>
 <ol style="list-style-type: decimal">
 <li><p>Double click the variable you want to change.<br />
 <img src="images/data_format/select_variable.JPG" alt="Wide data" width="60%"/></p></li>
-<li><p>The data variable pane will appear, allowing you to set the variable as ID, Nominal, Ordinal or Continous.<br />
+<li><p>In the data variable pane, set the variable as ID, Nominal, Ordinal or Continous.<br />
 <img src="images/data_format/set_data_type.JPG" alt="Wide data" width="80%"/></p></li>
 <li><p>Lastly, press the up arrow to hide the data variable pane, or the right arrow to go to the next variable.<br />
 <img src="images/data_format/set_data_type_2.JPG" alt="Wide data" width="80%"/></p></li>
 </ol>
 
+</div>
 </div>
 </div>
             </section>

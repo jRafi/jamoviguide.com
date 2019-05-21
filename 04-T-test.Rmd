@@ -4,7 +4,9 @@ This chapter shows how to conduct t-tests using independent samples (\@ref(indep
 
 ## Independent samples t-test {#independent}
 
-1. To perform an independent samples t-test you need an outcome variable (continuous) and a grouping variable with two levels. Therefore, your data should look something like this:  
+##### How to perform an independent samples t-test in jamovi: {-}
+
+1. Check that you have a continous outcome variable a grouping variable with two levels. This means that your data should look something like this:  
 <img src="images/data_format/data_format_ttest_independent.JPG" width="40%"/>  
 
 2. Select `Analyses -> T-Tests -> Independent Samples T-Test`.  
@@ -17,7 +19,9 @@ This chapter shows how to conduct t-tests using independent samples (\@ref(indep
 
 ## Paired samples t-test {#paired}
 
-1. To perform a paired samples t-test you need two continuous variables. Therefore, your data should look something like this:  
+##### How to perform a paired samples t-test in jamovi: {-}
+
+1. Check that your have two continuous variables. This means that your data should look something like this:  
 <img src="images/data_format/data_format_ttest_paired.JPG" width="40%"/>
 
 2. Select `Analyses -> T-Tests -> Paired Samples T-Test`.  
@@ -30,8 +34,10 @@ This chapter shows how to conduct t-tests using independent samples (\@ref(indep
 
 ## One-sample t-test {#oneSample}
 
-1. To perform a one-sample t-test you need a continuous variable and a mean to test against. Therefore, your data should look something like this:  
-<img src="images/data_format/data_format_ttest_one_sample.JPG" alt="Data till One Sample T-Test." width="40%"/>  
+##### How to perform a one-sample t-test in jamovi: {-}
+
+1. You need one continuous variable and a mean to test against. Therefore, your data should look something like this:  
+<img src="images/data_format/data_format_ttest_one_sample.JPG" alt="Data till One Sample T-Test." width="30%"/>  
 
 2. Select `Analyses -> T-Tests -> One Sample T-Test`.  
 <img src="images/select/select_ttest_one_sample.JPG" width="40%"/> 
@@ -39,7 +45,8 @@ This chapter shows how to conduct t-tests using independent samples (\@ref(indep
 3. Move your dependent variable to __Dependent Variables__.  
 <img src="images/add_var/add_var_ttest_one_sample.JPG" width="70%"/> 
 
-4. Locate the section "Hypothesis" further down, this is where you enter the mean you want to test against.
+4. Locate the section __Hypothesis__ further down, this is where you enter the mean you want to test against.  
+<img src="images/add_var/add_var_ttest_one_sample_2.JPG" width="70%"/> 
 
 5. The result is shown in the right panel
 

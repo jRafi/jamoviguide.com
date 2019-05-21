@@ -37,7 +37,8 @@ Note that this guide only shows *how* to do analyses with jamovi, it is not a tu
 
 Download jamovi at [www.jamovi.org](https://www.jamovi.org)
 
-Comments and questions are very welcome. Contact me at jonas.rafi <at> psychology.su or at [github](https://github.com/jRafi/jamoviguide.com). Feel free to fork the repository on GitHub and translate it into another language.  
+Comments and questions are very welcome. Contact me at jonas.rafi \<at\> psychology.su or at [github](https://github.com/jRafi/jamoviguide.com).  
+
 
 __License__
 

@@ -1,8 +1,6 @@
 # Descriptive analyses {#descriptives}
 
-This chapter provides an overview of how you perform descriptive analyses and create graphs. If you have not yet loaded and prepared your data, have a look at the previous chapter (\@ref(loadData)) first.
-
-When you are ready to perform your descriptive analysis, follow the steps below:
+This chapter provides an overview of how you perform descriptive analyses and create graphs in jamovi. If you have not yet loaded and prepared your data, have a look at the previous chapter (\@ref(loadData)) first. When you are ready to perform your descriptive analysis, follow the steps below:
 
 1. Select `Analyses -> Exploration -> Descriptives`.  
 <img src="images/select/select_descriptives.JPG" width="60%"/> 
