@@ -1,20 +1,20 @@
 # Descriptive analyses {#descriptives}
 
-This chapter provides an overview of how you perform descriptive analyses and create graphs in jamovi. If you have not yet loaded and prepared your data, have a look at the previous chapter (\@ref(loadData)) first. When you are ready to perform your descriptive analysis, follow the steps below:
+This chapter provides an overview on how to perform descriptive analyses and create graphs in jamovi. If you have not yet loaded and prepared your data, have a look at the previous chapter (\@ref(loadData)) first. When you are ready to perform your descriptive analysis, follow the steps below:
 
 1. Select `Analyses -> Exploration -> Descriptives`.  
 <img src="images/select/select_descriptives.JPG" width="60%"/> 
 
-2. Move the variables you want to descriptive analyses for to __Varibles__.  
+2. Move the variables you want descriptive analyses for to __Varibles__.  
 <img src="images/add_var/add_var_descriptives.JPG" width="70%"/> 
 
 3. The result is shown in the right panel. Right click the output to save or copy it.
 <img src="images/output/output_descriptives1.JPG" width="40%"/>
 
-4. To split your descriptive analyses on a categorical variable (e.g. separate by gender), move that variable to __Split by__.
+4. To split your descriptive analyses on a categorical variable (e.g. to separate by gender), move that variable to __Split by__.
 
-5. Click the tab __Statistics__ to see more alternatives
+5. Click the __Statistics__ tab to see more alternatives
 <img src="images/select/select_descriptives_statistics.JPG" width="60%"/> 
 
-6. To create a plot, click __Plots__ and tick a box to create a plot corresponding to your choices in step 2.
+6. To create a plot, click the __Plots__ tab and tick the box of your desired plot. The plot is based on your choices in step 2.
 <img src="images/select/select_descriptives_plots.JPG" width="60%"/> 

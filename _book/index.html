@@ -5,26 +5,27 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Get started with jamovi</title>
-  <meta name="description" content="A guide how to use jamovi, including how to load and prepare data, how to create graphs and descriptive analyses, and how to conduct t-test, ANOVA and regression in jamovi.">
+  <title>The jamovi quickstart guide</title>
+  <meta name="description" content="Guides on how to to use jamovi, including how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression.">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="Get started with jamovi" />
+  <meta property="og:title" content="The jamovi quickstart guide" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://jamoviguide.com" />
   
-  <meta property="og:description" content="A guide how to use jamovi, including how to load and prepare data, how to create graphs and descriptive analyses, and how to conduct t-test, ANOVA and regression in jamovi." />
+  <meta property="og:description" content="Guides on how to to use jamovi, including how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression." />
   <meta name="github-repo" content="jRafi/jamoviguide.com" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Get started with jamovi" />
+  <meta name="twitter:title" content="The jamovi quickstart guide" />
   
-  <meta name="twitter:description" content="A guide how to use jamovi, including how to load and prepare data, how to create graphs and descriptive analyses, and how to conduct t-test, ANOVA and regression in jamovi." />
+  <meta name="twitter:description" content="Guides on how to to use jamovi, including how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression." />
   
 
 <meta name="author" content="Jonas Rafi">
 
 
+<meta name="date" content="2019-06-01">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -96,7 +97,7 @@ window.cookieconsent.initialise({
 <li><a href="./">jamoviguide.com</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a></li>
 <li class="chapter" data-level="1" data-path="loadData.html"><a href="loadData.html"><i class="fa fa-check"></i><b>1</b> Loading and preparing data</a><ul>
 <li class="chapter" data-level="1.1" data-path="loadData.html"><a href="loadData.html#openFile"><i class="fa fa-check"></i><b>1.1</b> Opening a file</a></li>
 <li class="chapter" data-level="1.2" data-path="loadData.html"><a href="loadData.html#csvData"><i class="fa fa-check"></i><b>1.2</b> Comma delimited data</a></li>
@@ -132,7 +133,7 @@ window.cookieconsent.initialise({
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Get started with jamovi</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The jamovi quickstart guide</a>
           </h1>
         </div>
 
@@ -141,23 +142,13 @@ window.cookieconsent.initialise({
 
             <section class="normal" id="section-">
 <div id="header">
-<h1 class="title">Get started with jamovi</h1>
+<h1 class="title">The jamovi quickstart guide</h1>
 <p class="author"><em>Jonas Rafi</em></p>
+<p class="date"><em>2019-06-01</em></p>
 </div>
-<div id="overview" class="section level1 unnumbered">
-<h1>Overview</h1>
-<p>This site provides step-by-step tutorials for jamovi. There are three main sections:</p>
-<ul>
-<li>Loading and preparing your data (chapter <a href="loadData.html#loadData">1</a>)</li>
-<li>Creating descriptive analyses and graphs (chapter <a href="descriptives.html#descriptives">2</a>)</li>
-<li>Performing statistical analyses (chapter <a href="t-test.html#t-test">3</a>, <a href="anova.html#anova">4</a>, <a href="regression.html#regression">5</a>)</li>
-</ul>
-<p>Intended readers are:</p>
-<p>1: Students who need to analyse data and who gets statistical supervision/training from elsewhere<br />
-2: Anyone who already uses another statistical software but want to get started using jamovi</p>
-<p>Note that this guide only shows <em>how</em> to do analyses with jamovi, it is not a tutorial on prerequisites or interpretations of statistical tests. For that purpose there is plenty of other literature. One example is <em>learning statistics with jamovi</em> (2018) by Navarro och Foxcroft, which is a comprehensive statistics book using jamovi. Currently (April 2019) it is available for free online.</p>
-<p>Download jamovi at <a href="https://www.jamovi.org">www.jamovi.org</a></p>
-<p>Comments and questions are very welcome. Contact me at jonas.rafi &lt;at&gt; psychology.su or at <a href="https://github.com/jRafi/jamoviguide.com">github</a>.</p>
+<div id="welcome" class="section level1 unnumbered">
+<h1>Welcome</h1>
+<p>The aim of this guide is to provide short and easy tutorials (with pictures!) on how to do common procedures in jamovi.</p>
 <p><strong>License</strong></p>
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
 
@@ -182,7 +173,7 @@ window.cookieconsent.initialise({
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
+"github": true,
 "facebook": true,
 "twitter": true,
 "google": false,
@@ -198,8 +189,8 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": null,
-"text": null
+"link": "https://github.com/jRafi/jamoviguide.com/edit/master/index.Rmd",
+"text": "Edit"
 },
 "history": {
 "link": null,

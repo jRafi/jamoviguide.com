@@ -3,6 +3,10 @@ bookdown::gitbook:
     in_header: [ga.html, consent.html]
   css: style.css
   config:
+    sharing:
+      github: yes
+      twitter: yes
+    edit: https://github.com/jRafi/jamoviguide.com/edit/master/%s
     toc:
       before: |
         <li><a href="./">jamoviguide.com</a></li>

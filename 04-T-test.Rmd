@@ -6,7 +6,7 @@ This chapter shows how to conduct t-tests using independent samples (\@ref(indep
 
 ##### How to perform an independent samples t-test in jamovi: {-}
 
-1. Check that you have a continous outcome variable a grouping variable with two levels. This means that your data should look something like this:  
+1. Check that you have a continous outcome variable and a grouping variable with two levels. This means that your data should look something like this:  
 <img src="images/data_format/data_format_ttest_independent.JPG" width="40%"/>  
 
 2. Select `Analyses -> T-Tests -> Independent Samples T-Test`.  

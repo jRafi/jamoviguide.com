@@ -1,7 +1,7 @@
 --- 
-title: "Get started with jamovi"
+title: "The jamovi quickstart guide"
 author: "Jonas Rafi"
-site: bookdown::bookdown_site
+date: "`r Sys.Date()`"
 github-repo: jRafi/jamoviguide.com
 url: 'https\://jamoviguide.com'
 documentclass: book
@@ -12,33 +12,12 @@ lot: yes
 lof: yes
 fontsize: 12pt
 monofontoptions: "Scale=0.7"
-description: "A guide how to use jamovi, including how to load and prepare data, how to create graphs and descriptive analyses, and how to conduct t-test, ANOVA and regression in jamovi."
+description: "Guides on how to to use jamovi, including how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression."
 ---
 
-# Overview {-}
+# Welcome {-}
 
-
-
-This site provides step-by-step tutorials for jamovi. There are three main sections:
-
-* Loading and preparing your data (chapter \@ref(loadData))
-* Creating descriptive analyses and graphs (chapter \@ref(descriptives))
-* Performing statistical analyses (chapter \@ref(t-test), \@ref(anova), \@ref(regression))
-
-
-Intended readers are: 
-
-1: Students who need to analyse data and who gets statistical supervision/training from elsewhere  
-2: Anyone who already uses another statistical software but want to get started using jamovi  
-
-
-Note that this guide only shows *how* to do analyses with jamovi, it is not a tutorial on prerequisites or interpretations of statistical tests. For that purpose there is plenty of other literature. One example is *learning statistics with jamovi* (2018) by Navarro och Foxcroft, which is a comprehensive statistics book using jamovi. Currently (April 2019) it is available for free online.
-
-
-Download jamovi at [www.jamovi.org](https://www.jamovi.org)
-
-Comments and questions are very welcome. Contact me at jonas.rafi \<at\> psychology.su or at [github](https://github.com/jRafi/jamoviguide.com).  
-
+The aim of this guide is to provide short and easy tutorials (with pictures!) on how to do common procedures in jamovi.  
 
 __License__
 
