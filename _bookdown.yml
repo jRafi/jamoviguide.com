@@ -1,6 +1,6 @@
-book_filename: "jamovi guide"
+book_filename: "jamovi_guide"
 repo: https://github.com/jRafi/jamoviguide.com/
 delete_merged_file: true
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: ""

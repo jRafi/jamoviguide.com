@@ -2,22 +2,25 @@
 title: "The jamovi quickstart guide"
 author: "Jonas Rafi"
 date: "`r Sys.Date()`"
+knit: bookdown::render_book
+site: bookdown::bookdown_site
 github-repo: jRafi/jamoviguide.com
 url: 'https\://jamoviguide.com'
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
+cover-image: '/images/pixel.jpg'
 lot: yes
 lof: yes
 fontsize: 12pt
 monofontoptions: "Scale=0.7"
-description: "Guides on how to to use jamovi, including how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression."
+description: "The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi."
 ---
 
 # Welcome {-}
 
-The aim of this guide is to provide short and easy tutorials (with pictures!) on how to do common procedures in jamovi.  
+The aim of this guide is to provide short, non-technical tutorials (with pictures!) on how to do common procedures in jamovi.  
 
 __License__
 

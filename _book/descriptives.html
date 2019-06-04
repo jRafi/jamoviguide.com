@@ -5,27 +5,27 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Chapter 2 Descriptive analyses | The jamovi quickstart guide</title>
-  <meta name="description" content="Guides on how to to use jamovi, including how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression.">
+  <title>2 Descriptive analyses | The jamovi quickstart guide</title>
+  <meta name="description" content="2 Descriptive analyses | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi.">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="Chapter 2 Descriptive analyses | The jamovi quickstart guide" />
+  <meta property="og:title" content="2 Descriptive analyses | The jamovi quickstart guide" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://jamoviguide.com" />
-  
-  <meta property="og:description" content="Guides on how to to use jamovi, including how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression." />
+  <meta property="og:image" content="https://jamoviguide.com/images/pixel.jpg" />
+  <meta property="og:description" content="2 Descriptive analyses | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
   <meta name="github-repo" content="jRafi/jamoviguide.com" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Descriptive analyses | The jamovi quickstart guide" />
+  <meta name="twitter:title" content="2 Descriptive analyses | The jamovi quickstart guide" />
   
-  <meta name="twitter:description" content="Guides on how to to use jamovi, including how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression." />
-  
+  <meta name="twitter:description" content="2 Descriptive analyses | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
+  <meta name="twitter:image" content="https://jamoviguide.com/images/pixel.jpg" />
 
 <meta name="author" content="Jonas Rafi">
 
 
-<meta name="date" content="2019-06-01">
+<meta name="date" content="2019-06-04">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -99,10 +99,11 @@ window.cookieconsent.initialise({
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a></li>
 <li class="chapter" data-level="1" data-path="loadData.html"><a href="loadData.html"><i class="fa fa-check"></i><b>1</b> Loading and preparing data</a><ul>
-<li class="chapter" data-level="1.1" data-path="loadData.html"><a href="loadData.html#openFile"><i class="fa fa-check"></i><b>1.1</b> Opening a file</a></li>
-<li class="chapter" data-level="1.2" data-path="loadData.html"><a href="loadData.html#csvData"><i class="fa fa-check"></i><b>1.2</b> Comma delimited data</a></li>
-<li class="chapter" data-level="1.3" data-path="loadData.html"><a href="loadData.html#wideData"><i class="fa fa-check"></i><b>1.3</b> Wide data</a></li>
-<li class="chapter" data-level="1.4" data-path="loadData.html"><a href="loadData.html#dataType"><i class="fa fa-check"></i><b>1.4</b> Data type</a></li>
+<li class="chapter" data-level="1.1" data-path="loadData.html"><a href="loadData.html#file-format"><i class="fa fa-check"></i><b>1.1</b> File format</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="loadData.html"><a href="loadData.html#csvData"><i class="fa fa-check"></i><b>1.1.1</b> Comma delimited data</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="loadData.html"><a href="loadData.html#wideData"><i class="fa fa-check"></i><b>1.2</b> Data format</a></li>
+<li class="chapter" data-level="1.3" data-path="loadData.html"><a href="loadData.html#dataType"><i class="fa fa-check"></i><b>1.3</b> Data types</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="descriptives.html"><a href="descriptives.html"><i class="fa fa-check"></i><b>2</b> Descriptive analyses</a></li>
 <li class="chapter" data-level="3" data-path="t-test.html"><a href="t-test.html"><i class="fa fa-check"></i><b>3</b> t-test</a><ul>
@@ -142,7 +143,7 @@ window.cookieconsent.initialise({
 
             <section class="normal" id="section-">
 <div id="descriptives" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Descriptive analyses</h1>
+<h1><span class="header-section-number">2</span> Descriptive analyses</h1>
 <p>This chapter provides an overview on how to perform descriptive analyses and create graphs in jamovi. If you have not yet loaded and prepared your data, have a look at the previous chapter (<a href="loadData.html#loadData">1</a>) first. When you are ready to perform your descriptive analysis, follow the steps below:</p>
 <ol style="list-style-type: decimal">
 <li><p>Select <code>Analyses -&gt; Exploration -&gt; Descriptives</code>.<br />
