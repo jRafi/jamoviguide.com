@@ -1,0 +1,20 @@
+# ANOVA: Repeated Measures {#repeated-measures-anova}  
+
+##### How to perform a repeated measures ANOVA in jamovi: {-}
+
+1. You need one continuous outcome variable for each measurement occasion. Make sure that the variables are marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> (see section \@ref(level-of-measurement)).  
+A correct setup should look similar to this:  
+<img src="images/data_format/data_format_anova_repeated.JPG" width="40%"/>  
+
+2. Select `Analyses` -> `ANOVA` -> `Repeated Measures ANOVA`.  
+<img src="images/select/select_anova_repeated.JPG" width="40%"/> 
+
+3. In the box __Repeated Measures Factors__: write the name of your outcome variable (e.g. My_scale) and name the levels for each measurement occasion (e.g. Pre, Post and 12 month follow-up). The images below shows the box with default values (left) and when the values has been set (right).  
+<img src="images/add_var/add_var_anova_repeated_naming_1.JPG" width="35%"/> `->` <img src="images/add_var/add_var_anova_repeated_naming_2.JPG" width="35%"/> 
+
+4. Drag and drop your outcome variables to their respective cells in __Repeated Measures Cells__.  
+<img src="images/add_var/add_var_anova_repeated.JPG" width="70%"/> 
+
+5. The results are shown in the right pane:  
+<img src="images/output/output_anova_repeated.JPG" width="70%"/> 
+

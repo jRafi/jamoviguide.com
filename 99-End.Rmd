@@ -1,3 +1,5 @@
-# Going further
+# (PART) Going further {-}
+
+# Where to go next
 
 To learn more about statistical analyses in jamovi, I highly recommend the free e-book **learning statistics with jamovi** (2018) by Navarro and Foxcroft as further reading.  

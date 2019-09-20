@@ -1,0 +1,16 @@
+# Logistic Regression {#logistic-regression}  
+
+##### How to perform a logistic regression in jamovi: {-}
+
+1. You need one continuous predictor variable and one categorical outcome variable. Make sure that the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> and the grouping variable is marked with <img src="images/icons/nominal.JPG" width="3%" alt=" grouped data icon"/> (see section \@ref(level-of-measurement)).  
+A correct setup should look similar to this:   
+<img src="images/data_format/data_format_regression_logistic.JPG" width="25%"/>  
+
+2. If the outcome variable has two levels (as in the above image): select `Analyses` -> `Regression` -> `2 Outcomes`. If the outcome variable has three or more levels, select `Analyses` -> `Regression` -> `N Outcomes`.  
+<img src="images/select/select_regression_logistic.JPG" width="40%"/> 
+
+3. Drag and drop your outcome variable to __Dependent Variable__ and your predictor to __Covariates__.  
+<img src="images/add_var/add_var_regression_logistic.JPG" width="70%"/> 
+
+4. The result is shown in the right panel:  
+<img src="images/output/output_regression_logistic.JPG" width="50%"/> 

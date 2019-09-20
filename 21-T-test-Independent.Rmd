@@ -1,0 +1,18 @@
+# (PART\*) T-Test {-}
+
+# T-Test: Independent samples {#independent-samples-t-test}
+
+##### How to perform an independent samples t-test in jamovi: {-}
+
+1. You need one grouping variable with two levels (e.g. treatment/control) and one continuous outcome variable. Make sure that the grouping variable is marked with <img src="images/icons/nominal.JPG" width="3%" alt=" grouped data icon"/> and the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> (see section \@ref(level-of-measurement)).  
+A correct setup should look similar to this:  
+<img src="images/data_format/data_format_ttest_independent.JPG" width="40%"/> 
+
+2. Select `Analyses` -> `T-Tests` -> `Independent Samples T-Test`.  
+<img src="images/select/select_ttest_independent.JPG" width="40%"/> 
+
+3. Drag and drop your outcome variable to __Dependent Variables__ and your grouping variable to __Grouping Variable__.  
+<img src="images/add_var/add_var_ttest_independent.JPG" width="70%"/> 
+
+4. The result is shown in the right panel
+

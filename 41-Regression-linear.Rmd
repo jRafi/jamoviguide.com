@@ -1,0 +1,19 @@
+# (PART\*) Regression {-}
+
+# Linear Regression {#linear-regression}  
+
+##### How to perform a linear regression in jamovi: {-}
+
+1. You need one two continuous outcome variables. Make sure that the continuous variables are marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> (see section \@ref(level-of-measurement)).  
+A correct setup should look similar to this:  
+<img src="images/data_format/data_format_regression.JPG" width="25%"/>  
+
+2. Select `Analyses` -> `Regression` -> `Linear Regression`.  
+<img src="images/select/select_regression_linear.JPG" width="40%"/> 
+
+3. Drag and drop your outcome variable to __Dependent Variable__ and your predictor to __Covariates__. 
+<img src="images/add_var/add_var_regression.JPG" width="70%"/> 
+
+4. The result is shown in the right panel:  
+<img src="images/output/output_regression.JPG" width="50%"/> 
+

@@ -4,21 +4,21 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>The jamovi quickstart guide</title>
-  <meta name="description" content="The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
+  <title>1 Opening data in jamovi | The jamovi quickstart guide</title>
+  <meta name="description" content="1 Opening data in jamovi | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
   <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="The jamovi quickstart guide" />
+  <meta property="og:title" content="1 Opening data in jamovi | The jamovi quickstart guide" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://jamoviguide.com" />
   <meta property="og:image" content="https://jamoviguide.com/images/pixel.jpg" />
-  <meta property="og:description" content="The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
+  <meta property="og:description" content="1 Opening data in jamovi | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
   <meta name="github-repo" content="jRafi/jamoviguide.com" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="The jamovi quickstart guide" />
+  <meta name="twitter:title" content="1 Opening data in jamovi | The jamovi quickstart guide" />
   
-  <meta name="twitter:description" content="The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
+  <meta name="twitter:description" content="1 Opening data in jamovi | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
   <meta name="twitter:image" content="https://jamoviguide.com/images/pixel.jpg" />
 
 <meta name="author" content="Jonas Rafi" />
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="load-data-into-jamovi.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="level-of-measurement.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -128,28 +128,25 @@ window.cookieconsent.initialise({
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">The jamovi quickstart guide</h1>
-<p class="author"><em>Jonas Rafi</em></p>
-<p class="date"><em>sep 20, 2019</em></p>
-</div>
-<div id="welcome" class="section level1 unnumbered">
-<h1>Welcome</h1>
-<p>The aim of this guide is to provide short, non-technical tutorials (with pictures!) on how to do common procedures in jamovi.</p>
-<p><strong>License</strong></p>
-<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+<div id="load-data-into-jamovi" class="section level1">
+<h1><span class="header-section-number">1</span> Opening data in jamovi</h1>
+<p><strong>Opening a file</strong></p>
+<p>To open a file in jamovi, click the menu icon <img src="images/icons/menu.JPG" width="3%"/> and select <code>Open file</code> -&gt; <code>Browse</code>.</p>
+<p>Common data formats to use are “comma-separated files” (.csv or .txt). Other supported file formats are JASP files (.jasp), R files (.RData, .RDS), SAS files (.xpt, .sas7bdat), SPSS files (.sav, .zsav, .por) and Stata files (.dta).</p>
+<p>Got data in Excel and don’t know how to get it into jamovi? Continue reading about comma delimited data below to find out.</p>
+<p><strong>Comma delimited data</strong></p>
+<p>A comma delimited file has the filename extension “.csv” and contains unformated text, where cells are separated by a semi-colon (se figure 1 below) or another special character. If you have your data in a spreadsheet program (e.g. Excel), you can create a csv copy of your data by selecting <code>File</code> -&gt; <code>Save as...</code> and choose <code>Comma delimited</code> in the drop-down menu close to the <code>Save as</code>-button.</p>
+<p><img src="images/csv_data.png" alt="Comma delimited data" width="40%"/><br />
+Figure 1: <em>A .csv-file opened in a texteditor.</em></p>
 
 </div>
-
-
-
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="load-data-into-jamovi.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="level-of-measurement.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -179,7 +176,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jRafi/jamoviguide.com/edit/master/index.Rmd",
+"link": "https://github.com/jRafi/jamoviguide.com/edit/master/01-Load-data.Rmd",
 "text": "Edit"
 },
 "history": {

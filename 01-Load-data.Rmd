@@ -1,46 +1,21 @@
-# Loading and preparing data {#loadData}
+# (PART\*) Getting started {-}
 
-When opening and preparing a data file in jamovi, you need to consider three things:  
+# Opening data in jamovi {#load-data-into-jamovi}
 
-1. the file format
-2. the data format
-3. the data type
+__Opening a file__
 
-Next, your data format should be in the __wide data format (\@ref(wideData))__ to be able to perform common analyses like t-test, ANOVA or regression. Once loaded into jamovi, you need to select the appropriate __data type__ (\@ref(dataType)) for each variable.  
+To open a file in jamovi, click the menu icon <img src="images/icons/menu.JPG" width="3%"/> and select `Open file` -> `Browse`.
+
+Common data formats to use are "comma-separated files" (.csv or .txt). Other supported file formats are JASP files (.jasp), R files (.RData, .RDS), SAS files (.xpt, .sas7bdat), SPSS files (.sav, .zsav, .por) and Stata files (.dta).
+
+Got data in Excel and don't know how to get it into jamovi? Continue reading about comma delimited data below to find out.
 
 
-## File format
+__Comma delimited data__
 
-If your data file was created by another statistical software (SPSS, Stata, SAS or JASP), you can load that file into jamovi. However, it is likely that your data is in another file format (e.g. Excel). In that case, you need to save your data as a comma delimited file.  
-
-### Comma delimited data {#csvData}
-
-A comma delimited file has the filename extension ".csv" and contains unformated text, where cells are separated by a semi-colon (se figure 1 below) or another special character. If you have your data in a spreadsheet program (e.g. Excel), you can create a csv-file of your data by selecting `File -> Save as...` and choose `Comma delimited` in the drop-down menu near the `Save as`-button.
+A comma delimited file has the filename extension ".csv" and contains unformated text, where cells are separated by a semi-colon (se figure 1 below) or another special character. If you have your data in a spreadsheet program (e.g. Excel), you can create a csv copy of your data by selecting `File` -> `Save as...` and choose `Comma delimited` in the drop-down menu close to the `Save as`-button.
 
 <img src="images/csv_data.PNG" alt="Comma delimited data" width="40%"/>  
 Figure 1: _A .csv-file opened in a texteditor._  
-
-## Data format {#wideData}
-
-Your data needs to be in _wide format_ in order to perform analyses like t-test, ANOVA and regression. Wide data (se figure 2A below) means that there is only one row per participant. This is contrast to _long format_ (se figure 2B below) where each participant may have multiple rows.
-
-<img src="images/wide_data.JPG" alt="Wide data" width="50%"/>  
-Figure 2A: _Data in wide format._  
-
-<img src="images/long_data.JPG" alt="Long data" width="35%"/>  
-Figure 2B: _Data i long format._  
-
-## Data types {#dataType}
-
-##### How to set the data type in jamovi: {-}
-
-1. Double click the variable you want to change.  
-<img src="images/data_format/select_variable.JPG" alt="Wide data" width="60%"/>  
-
-2. In the data variable pane, set the variable as ID, Nominal, Ordinal or Continous.  
-<img src="images/data_format/set_data_type.JPG" alt="Wide data" width="80%"/>  
-
-3. Lastly, press the up arrow to hide the data variable pane, or the right arrow to go to the next variable.  
-<img src="images/data_format/set_data_type_2.JPG" alt="Wide data" width="80%"/>  
 
 

@@ -4,21 +4,21 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>The jamovi quickstart guide</title>
-  <meta name="description" content="The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
+  <title>3 Descriptive analyses | The jamovi quickstart guide</title>
+  <meta name="description" content="3 Descriptive analyses | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
   <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="The jamovi quickstart guide" />
+  <meta property="og:title" content="3 Descriptive analyses | The jamovi quickstart guide" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://jamoviguide.com" />
   <meta property="og:image" content="https://jamoviguide.com/images/pixel.jpg" />
-  <meta property="og:description" content="The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
+  <meta property="og:description" content="3 Descriptive analyses | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
   <meta name="github-repo" content="jRafi/jamoviguide.com" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="The jamovi quickstart guide" />
+  <meta name="twitter:title" content="3 Descriptive analyses | The jamovi quickstart guide" />
   
-  <meta name="twitter:description" content="The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
+  <meta name="twitter:description" content="3 Descriptive analyses | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
   <meta name="twitter:image" content="https://jamoviguide.com/images/pixel.jpg" />
 
 <meta name="author" content="Jonas Rafi" />
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="load-data-into-jamovi.html"/>
+<link rel="prev" href="level-of-measurement.html"/>
+<link rel="next" href="independent-samples-t-test.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -128,17 +128,25 @@ window.cookieconsent.initialise({
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">The jamovi quickstart guide</h1>
-<p class="author"><em>Jonas Rafi</em></p>
-<p class="date"><em>sep 20, 2019</em></p>
-</div>
-<div id="welcome" class="section level1 unnumbered">
-<h1>Welcome</h1>
-<p>The aim of this guide is to provide short, non-technical tutorials (with pictures!) on how to do common procedures in jamovi.</p>
-<p><strong>License</strong></p>
-<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+<div id="descriptive-analyses" class="section level1">
+<h1><span class="header-section-number">3</span> Descriptive analyses</h1>
+<div id="how-to-perform-descriptive-analyses-and-create-graphs-in-jamovi" class="section level5 unnumbered">
+<h5>How to perform descriptive analyses and create graphs in jamovi:</h5>
+<ol style="list-style-type: decimal">
+<li><p>Select <code>Analyses -&gt; Exploration -&gt; Descriptives</code>.<br />
+<img src="images/select/select_descriptives.JPG" width="60%"/></p></li>
+<li><p>Drag and drop the variables you want descriptive analyses for to <strong>Variables</strong>.<br />
+<img src="images/add_var/add_var_descriptives.JPG" width="70%"/></p></li>
+<li><p>The result is shown in the right panel. Right click the output to save or copy it.
+<img src="images/output/output_descriptives1.JPG" width="40%"/></p></li>
+<li><p>To split your descriptive analyses on a categorical variable (e.g. to separate by gender), move that variable to <strong>Split by</strong>.</p></li>
+<li><p>Click the <strong>Statistics</strong> tab to see more alternatives.
+<img src="images/select/select_descriptives_statistics.JPG" width="60%"/></p></li>
+<li><p>To create a plot based on the above choices, click the <strong>Plots</strong> tab and tick the box of your desired plot.<br />
+<img src="images/select/select_descriptives_plots.JPG" width="60%"/></p></li>
+</ol>
 
+</div>
 </div>
 
 
@@ -148,8 +156,8 @@ window.cookieconsent.initialise({
           </div>
         </div>
       </div>
-
-<a href="load-data-into-jamovi.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="level-of-measurement.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="independent-samples-t-test.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -179,7 +187,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/jRafi/jamoviguide.com/edit/master/index.Rmd",
+"link": "https://github.com/jRafi/jamoviguide.com/edit/master/03-descriptive-analyses.Rmd",
 "text": "Edit"
 },
 "history": {

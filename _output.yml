@@ -2,14 +2,12 @@ bookdown::gitbook:
   includes:
     in_header: [ga.html, consent.html]
   css: style.css
+  split_by: "chapter"
   config:
+    toc:
+      collapse: section
+      scroll_highlight: true
     sharing:
       github: yes
       twitter: yes
     edit: https://github.com/jRafi/jamoviguide.com/edit/master/%s
-    toc:
-      before: |
-        <li><a href="./">jamoviguide.com</a></li>
-      after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-#    download: ["pdf", "epub"]

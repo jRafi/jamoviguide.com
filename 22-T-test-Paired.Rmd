@@ -1,0 +1,16 @@
+# T-Test: Paired samples {#paired-samples-t-test}
+
+##### How to perform a paired samples t-test in jamovi: {-}
+
+1. You need two continuous variables. Make sure that both the continuous variables is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> (see section \@ref(level-of-measurement)).  
+A correct setup should look similar to this:  
+<img src="images/data_format/data_format_ttest_paired.JPG" width="40%"/>
+
+2. Select `Analyses` -> `T-Tests` -> `Paired Samples T-Test`.  
+<img src="images/select/select_ttest_paired.JPG" width="40%"/> 
+
+3. Drag and drop your two outcome variables to __Dependent variables__.  
+<img src="images/add_var/add_var_ttest_paired.JPG" width="70%"/> 
+
+4. The result is shown in the right panel
+
