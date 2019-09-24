@@ -1,13 +1,13 @@
 # Setting the scale of measurement {#level-of-measurement}
 
-Before conducting analyses in jamovi, you usually need to set the <a href="https://en.wikipedia.org/wiki/Level_of_measurement">scale of measurement</a> for each variable included in the analysis. When you load data in jamovi, it is common for the variables to get the lowest (nominal) level. This means that, for example, if you wish to perform a two sample t-test you would need to set both included variables as "continuous". 
+Before conducting analyses in jamovi, you usually need to set the <a href="https://en.wikipedia.org/wiki/Level_of_measurement">scale of measurement</a> for each variable included in the analysis. When you load data into jamovi, it is common for variables to get the lowest (nominal) level. This means that, for example, if you wish to perform a two sample t-test you would need to set both included variables as "continuous". 
 
-__How to set the scale of measurement for a variable__
+#### How to set the scale of measurement for a variable {-}
 
 1. Double click the variable you want to edit.  
 <img src="images/data_format/select_variable.JPG" alt="Wide data" width="60%"/>  
 
-2. In the data variable pane, set the variable as ID, Nominal, Ordinal or Continous.  
+2. In the data variable pane, select the desired level: `ID`, `Nominal`, `Ordinal` or `Continous`.  
 <img src="images/data_format/set_data_type.JPG" alt="Wide data" width="80%"/>  
 
 3. Lastly, press the up arrow to hide the data variable pane, or the left or right arrows to edit another variable.  

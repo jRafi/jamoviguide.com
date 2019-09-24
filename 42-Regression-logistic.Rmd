@@ -1,12 +1,12 @@
 # Logistic Regression {#logistic-regression}  
 
-##### How to perform a logistic regression in jamovi: {-}
+#### How to perform a logistic regression in jamovi: {-}
 
-1. You need one continuous predictor variable and one categorical outcome variable. Make sure that the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> and the grouping variable is marked with <img src="images/icons/nominal.JPG" width="3%" alt=" grouped data icon"/> (see section \@ref(level-of-measurement)).  
+1. You need one continuous predictor variable and one categorical (nominal or ordinal) outcome variable. Make sure that the measurement levels are set^[This is demonstrated in section \@ref(level-of-measurement).] so that the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> and the grouping variable is marked with <img src="images/icons/nominal.JPG" width="3%" alt=" grouped data icon"/>.  
 A correct setup should look similar to this:   
 <img src="images/data_format/data_format_regression_logistic.JPG" width="25%"/>  
 
-2. If the outcome variable has two levels (as in the above image): select `Analyses` -> `Regression` -> `2 Outcomes`. If the outcome variable has three or more levels, select `Analyses` -> `Regression` -> `N Outcomes`.  
+2. Logistic regression can be found by selecting `Analyses` -> `Regression`. If the outcome variable is nominal (as in the above image), select `2 Outcomes` if it has 2 outcomes, or `N outcomes`if it has _more_ than 2 outcomes. If the outcome variable is ordinal (e.g. low, medium, high), select `Ordinal Outcomes`.  
 <img src="images/select/select_regression_logistic.JPG" width="40%"/> 
 
 3. Drag and drop your outcome variable to __Dependent Variable__ and your predictor to __Covariates__.  

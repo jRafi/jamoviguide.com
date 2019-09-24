@@ -130,13 +130,13 @@ window.cookieconsent.initialise({
             <section class="normal" id="section-">
 <div id="logistic-regression" class="section level1">
 <h1><span class="header-section-number">12</span> Logistic Regression</h1>
-<div id="how-to-perform-a-logistic-regression-in-jamovi" class="section level5 unnumbered">
-<h5>How to perform a logistic regression in jamovi:</h5>
+<div id="how-to-perform-a-logistic-regression-in-jamovi" class="section level4 unnumbered">
+<h4>How to perform a logistic regression in jamovi:</h4>
 <ol style="list-style-type: decimal">
-<li><p>You need one continuous predictor variable and one categorical outcome variable. Make sure that the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> and the grouping variable is marked with <img src="images/icons/nominal.JPG" width="3%" alt=" grouped data icon"/> (see section <a href="level-of-measurement.html#level-of-measurement">2</a>).<br />
+<li><p>You need one continuous predictor variable and one categorical (nominal or ordinal) outcome variable. Make sure that the measurement levels are set<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> so that the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> and the grouping variable is marked with <img src="images/icons/nominal.JPG" width="3%" alt=" grouped data icon"/>.<br />
 A correct setup should look similar to this:<br />
 <img src="images/data_format/data_format_regression_logistic.JPG" width="25%"/></p></li>
-<li><p>If the outcome variable has two levels (as in the above image): select <code>Analyses</code> -&gt; <code>Regression</code> -&gt; <code>2 Outcomes</code>. If the outcome variable has three or more levels, select <code>Analyses</code> -&gt; <code>Regression</code> -&gt; <code>N Outcomes</code>.<br />
+<li><p>Logistic regression can be found by selecting <code>Analyses</code> -&gt; <code>Regression</code>. If the outcome variable is nominal (as in the above image), select <code>2 Outcomes</code> if it has 2 outcomes, or <code>N outcomes</code>if it has <em>more</em> than 2 outcomes. If the outcome variable is ordinal (e.g. low, medium, high), select <code>Ordinal Outcomes</code>.<br />
 <img src="images/select/select_regression_logistic.JPG" width="40%"/></p></li>
 <li><p>Drag and drop your outcome variable to <strong>Dependent Variable</strong> and your predictor to <strong>Covariates</strong>.<br />
 <img src="images/add_var/add_var_regression_logistic.JPG" width="70%"/></p></li>
@@ -149,6 +149,12 @@ A correct setup should look similar to this:<br />
 
 
 
+<div class="footnotes">
+<hr />
+<ol start="9">
+<li id="fn9"><p>This is demonstrated in section <a href="level-of-measurement.html#level-of-measurement">2</a>.<a href="logistic-regression.html#fnref9" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
             </section>
 
           </div>

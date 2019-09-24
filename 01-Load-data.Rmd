@@ -2,20 +2,22 @@
 
 # Opening data in jamovi {#load-data-into-jamovi}
 
-__Opening a file__
+#### Opening a file in jamovi {-}
 
 To open a file in jamovi, click the menu icon <img src="images/icons/menu.JPG" width="3%"/> and select `Open file` -> `Browse`.
 
-Common data formats to use are "comma-separated files" (.csv or .txt). Other supported file formats are JASP files (.jasp), R files (.RData, .RDS), SAS files (.xpt, .sas7bdat), SPSS files (.sav, .zsav, .por) and Stata files (.dta).
+Usually, you may want to use data files with "comma-separated values" (.csv or .txt). Other supported file formats are JASP files (.jasp), R files (.RData, .RDS), SAS files (.xpt, .sas7bdat), SPSS files (.sav, .zsav, .por) and Stata files (.dta).
 
 Got data in Excel and don't know how to get it into jamovi? Continue reading about comma delimited data below to find out.
 
 
-__Comma delimited data__
+#### Comma delimited files {-}
 
-A comma delimited file has the filename extension ".csv" and contains unformated text, where cells are separated by a semi-colon (se figure 1 below) or another special character. If you have your data in a spreadsheet program (e.g. Excel), you can create a csv copy of your data by selecting `File` -> `Save as...` and choose `Comma delimited` in the drop-down menu close to the `Save as`-button.
+A comma-separated values (csv) file is a text file that uses comma to separate values. The file stores data in plain text, where each line of the file is a record. Despite the name comma-separated, other characters such as semi-colon are sometimes used. See figure 1 below for an example of a .csv-file with semi-colon used. 
 
 <img src="images/csv_data.PNG" alt="Comma delimited data" width="40%"/>  
 Figure 1: _A .csv-file opened in a texteditor._  
+
+If you have your data in a spreadsheet program (e.g. Excel), you can create a csv copy of your data by selecting `File` -> `Save as...` and choose `Comma delimited` in the drop-down menu close to the `Save as`-button. Thereafter, you may open the .csv-file in jamovi.  
 
 

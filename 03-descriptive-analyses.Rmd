@@ -1,8 +1,8 @@
 # Descriptive analyses {#descriptive-analyses}
 
-##### How to perform descriptive analyses and create graphs in jamovi: {-}
+#### How to perform descriptive analyses and create graphs in jamovi: {-}
 
-1. Select `Analyses -> Exploration -> Descriptives`.  
+1. Select `Analyses` -> `Exploration` -> `Descriptives`.  
 <img src="images/select/select_descriptives.JPG" width="60%"/> 
 
 2. Drag and drop the variables you want descriptive analyses for to __Variables__.  

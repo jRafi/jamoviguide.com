@@ -1,8 +1,8 @@
 # T-Test: One sample {#one-sample-t-test}
 
-##### How to perform a one-sample t-test in jamovi: {-}
+#### How to perform a one-sample t-test in jamovi: {-}
 
-1. You need one continuous variable and a mean to test against. Make sure that the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> (see section \@ref(level-of-measurement)).   
+1. You need one continuous variable and a mean to test against. Make sure that the measurement levels are set^[This is demonstrated in section \@ref(level-of-measurement).] so that the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/>.   
 A correct setup should look similar to this:  
 <img src="images/data_format/data_format_ttest_one_sample.JPG" alt="Data till One Sample T-Test." width="30%"/>  
 
