@@ -26,7 +26,7 @@ Note that the guides focus only on showing how to the analyses in jamovi. They d
 
 __Contact__
 
-Notice something that is missing or could be improved? Feel free to contact me at jonas.rafi <at> psychology.su.se.
+Notice something that is missing or could be improved? Feel free to contact me at jonas.rafi \<at \> psychology.su.se.
 
 __License__
 

@@ -2,4 +2,4 @@
 
 # Where to go next
 
-To learn more about statistical analyses in jamovi, I highly recommend the free e-book **learning statistics with jamovi** (2018) by Navarro and Foxcroft as further reading.  
+To learn more about statistical analyses in jamovi, I highly recommend the free e-book <a href="https://www.learnstatswithjamovi.com/">Learning statistics with jamovi</a> by Navarro and Foxcroft.  
