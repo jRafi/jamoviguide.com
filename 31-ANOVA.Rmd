@@ -8,7 +8,7 @@
 A correct setup should look similar to this:  
 <img src="images/data_format/data_format_anova.JPG" width="40%"/>  
 
-2. Select `Analyses` -> `ANOVA` -> `ANOVA`.  
+2. Select `Analyses` -> `ANOVA` -> `One-way ANOVA`.  
 <img src="images/select/select_anova_oneway.JPG" width="45%"/> 
 
 3. Drag and drop your outcome variable to __Dependent Variable__ and your grouping variable to __Fixed Factors__.  
