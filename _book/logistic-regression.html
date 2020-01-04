@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>12 Logistic Regression | The jamovi quickstart guide</title>
   <meta name="description" content="12 Logistic Regression | The jamovi quickstart guide features a collection of non-technical tutorials on how to conduct common operations in jamovi. This includes how to conduct independent samples t-test, paired samples t-test, one sample t-test, ANOVA, repeated measures ANOVA, factorial ANOVA, mixed ANOVA, linear regression, and logistic regression. Additionally, the tutorials cover the use of csv files, wide data format, and setting the data type in jamovi." />
-  <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
   <meta property="og:title" content="12 Logistic Regression | The jamovi quickstart guide" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Jonas Rafi" />
 
 
-<meta name="date" content="2019-09-24" />
+<meta name="date" content="2020-01-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -40,6 +40,9 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -134,7 +137,7 @@ window.cookieconsent.initialise({
 <div id="how-to-perform-a-logistic-regression-in-jamovi" class="section level4 unnumbered">
 <h4>How to perform a logistic regression in jamovi:</h4>
 <ol style="list-style-type: decimal">
-<li><p>You need one continuous predictor variable and one categorical (nominal or ordinal) outcome variable. Make sure that the measurement levels are set<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> so that the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> and the grouping variable is marked with <img src="images/icons/nominal.JPG" width="3%" alt=" grouped data icon"/>.<br />
+<li><p>You need one continuous predictor variable and one categorical (nominal or ordinal) outcome variable. Make sure that the measurement levels are set<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a> so that the continuous variable is marked with <img src="images/icons/continuous.JPG" width="3%" alt=" the continuous data icon"/> and the grouping variable is marked with <img src="images/icons/nominal.JPG" width="3%" alt=" grouped data icon"/>.<br />
 A correct setup should look similar to this:<br />
 <img src="images/data_format/data_format_regression_logistic.JPG" width="25%"/></p></li>
 <li><p>Logistic regression can be found by selecting <code>Analyses</code> -&gt; <code>Regression</code>. If the outcome variable is nominal (as in the above image), select <code>2 Outcomes</code> if it has 2 outcomes, or <code>N outcomes</code>if it has <em>more</em> than 2 outcomes. If the outcome variable is ordinal (e.g. low, medium, high), select <code>Ordinal Outcomes</code>.<br />
@@ -152,8 +155,8 @@ A correct setup should look similar to this:<br />
 
 <div class="footnotes">
 <hr />
-<ol start="9">
-<li id="fn9"><p>This is demonstrated in section <a href="level-of-measurement.html#level-of-measurement">2</a>.<a href="logistic-regression.html#fnref9" class="footnote-back">↩</a></p></li>
+<ol start="10">
+<li id="fn10"><p>This is demonstrated in section <a href="level-of-measurement.html#level-of-measurement">2</a>.<a href="logistic-regression.html#fnref10" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
@@ -167,11 +170,13 @@ A correct setup should look similar to this:<br />
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -179,12 +184,11 @@ gitbook.start({
 "github": true,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -196,6 +200,10 @@ gitbook.start({
 "text": "Edit"
 },
 "history": {
+"link": null,
+"text": null
+},
+"view": {
 "link": null,
 "text": null
 },
