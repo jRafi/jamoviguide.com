@@ -6,7 +6,7 @@
 
 To open a file in jamovi, click the menu icon <img src="images/icons/menu.JPG" width="3%"/> and select `Open file` -> `Browse`.
 
-Excel (.xlsx) and LibreOffice (.odt) files are supported in version 1.2.0^[Scheduled for stable release in April 2020, but availabe as a non-stable release at jamovi.org.]. For earlier versions of jamovi, it is common to use data files with "comma-separated values" (.csv or .txt). Other supported file formats are JASP files (.jasp), R files (.RData, .RDS), SAS files (.xpt, .sas7bdat), SPSS files (.sav, .zsav, .por) and Stata files (.dta). Got data in Excel and don't know how to get it into jamovi? Continue reading about comma delimited data below to find out.
+Excel (.xlsx) and LibreOffice (.odt) files are supported in version 1.2.0^[It was supposedly scheduled for stable release in April 2020, but availabe as a non-stable release at jamovi.org.]. For earlier versions of jamovi, it is common to use data files with "comma-separated values" (.csv or .txt). Other supported file formats are JASP files (.jasp), R files (.RData, .RDS), SAS files (.xpt, .sas7bdat), SPSS files (.sav, .zsav, .por) and Stata files (.dta). Got data in Excel and don't know how to get it into jamovi? Continue reading about comma delimited data below to find out.
 
 
 #### Comma delimited files {-}

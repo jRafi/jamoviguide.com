@@ -2,7 +2,9 @@
 
 # Where to go next
 
-If you require an introduction to both statistics and jamovi, I recommend the free e-book <a href="https://www.learnstatswithjamovi.com/">Learning statistics with jamovi</a> by Danielle J. Navarro and David R. Foxcroft.
+If you require an introduction to statistics, I recommend the free e-book <a href="https://www.learnstatswithjamovi.com/">Learning statistics with jamovi</a> by Danielle J. Navarro and David R. Foxcroft.
 
-Questions regardin jamovi can be asked in the forum at <a href="forum.jamovi.org/">jamovi.org</a>. 
+For other resources related to jamovi, see the <a href="https://www.jamovi.org/community.html">community resources page</a>.  
+
+Questions regarding jamovi can be asked in the forum at <a href="https://forum.jamovi.org/">jamovi.org</a>. 
 

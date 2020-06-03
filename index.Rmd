@@ -20,13 +20,17 @@ description: "The jamovi quickstart guide features a collection of non-technical
 
 # Welcome {-}
 
-The aim of this website is to provide short, non-technical tutorials on how to do common procedures in jamovi.  
+The aim of this website is to provide short, non-technical tutorials on how to do common procedures in jamovi. However, it is not a resource on statistics.
 
-If you require an introduction to both statistics and jamovi, I recommend the free e-book <a href="https://www.learnstatswithjamovi.com/">Learning statistics with jamovi</a> by Danielle J. Navarro and David R. Foxcroft.
+If you require an introduction to statistics, there are plenty of other resources, e.g the free e-book <a href="https://www.learnstatswithjamovi.com/">Learning statistics with jamovi</a> by Navarro and Foxcroft.
 
 __Contact__
 
 Notice something that is missing or could be improved? Feel free to contact me at jonas.rafi \<at \> psychology.su.se.
+
+__Other languages__
+
+See the <a href="https://www.jamovi.org/community.html">jamovi coummunity resource page</a> for current translations into other languages.  
 
 __License__
 
